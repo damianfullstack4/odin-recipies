@@ -11,18 +11,37 @@ h1, h2, p {
 
 img {
     display: block;
+    border: 2px solid black;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
 }
 
 div {
     background: rgba(128, 128, 128, 0.2);
+    border-top: 1px solid black;
+
     margin: 15px;
+    margin-top: 0;
+    margin-bottom:0;
+
     padding: 5px;
     padding-top: 1px;
-    border: 1px solid black;
+
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-button {
+    display: block;
+
+    color: blue;
+    background: rgba(128, 128, 128, 0.2);
+    text-align: center;
+    border: 1px solid black;
+
+    width: 5%;
+    margin: 10px;
     margin-left: auto;
     margin-right: auto;
 }
